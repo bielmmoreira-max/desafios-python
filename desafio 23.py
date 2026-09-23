@@ -1,0 +1,6 @@
+n = str(input('digite um numero de 0 a 9999: ')).strip().zfill(4)
+print(n)
+print(f'o milhar é {n[0]}')
+print(f'a centena {n[1]}')
+print(f'a dezena {n[2]}')
+print(f'a unidade {n[3]}')

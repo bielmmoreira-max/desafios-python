@@ -1,0 +1,5 @@
+n = input('digite o nome completo: ').strip()
+nome = n.split()
+print(n)
+print(f'seu primeiro nome é {nome[0]}')
+print(f'seu ultimo nome é {nome[-1]}')
